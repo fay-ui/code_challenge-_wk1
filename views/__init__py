@@ -1,0 +1,4 @@
+# blueprints/__init__.py
+from .auth import auth_bp  # Import auth blueprint
+from .courses import courses_bp  # Import courses blueprint
+from .student import student_bp  
