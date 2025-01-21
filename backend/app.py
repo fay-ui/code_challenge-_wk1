@@ -14,6 +14,7 @@ jwt = JWTManager()
 # Create Flask app instance
 app = Flask(__name__)
 
+
 # Configure the app
 class Config:
     SQLALCHEMY_DATABASE_URI = 'sqlite:///student.db'
